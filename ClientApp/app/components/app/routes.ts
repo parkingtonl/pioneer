@@ -7,11 +7,11 @@ export class DbRoutes {
     public navroutes: NavigationRoute[];
     public routes: string[];
     constructor(http: HttpClient) { 
-        PLATFORM.moduleName('../scheduler/scheduler');
+        /*PLATFORM.moduleName('../scheduler/scheduler');
         PLATFORM.moduleName('../newcustomer/newcustomer');
         PLATFORM.moduleName('../searchcustomers/searchcustomers');
         PLATFORM.moduleName('../counter/counter');
-        PLATFORM.moduleName('../fetchdata/fetchdata');
+        PLATFORM.moduleName('../fetchdata/fetchdata');*/
     }
 }
 
